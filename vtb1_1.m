@@ -30,7 +30,6 @@ end
 w=sqrt(k/m);
 z=c/2/w/m;%(1.30)
 wd=w*sqrt(1-z^2);%(1.37)
-
 fprintf('The natural frequency is %.3g rad/s.\n',w);
 fprintf('The damping ratio is %.3g.\n',z);
 fprintf('The damped natural frequency is %.3g.\n',wd);
